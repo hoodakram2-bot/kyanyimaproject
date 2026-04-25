@@ -1,0 +1,78 @@
+body {
+    font-family: Agency, FB;
+    margin: 0;
+   
+    background-image:url(pawel-czerwinski-7G18nE_wVwk-unsplash.jpg) ;
+}
+
+
+header {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient( #8BA5A2, pink, #246A73);;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background: pink;
+}
+
+#home{
+    background-color: transparent;
+}
+
+.home{
+    padding: 50px;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+
+section {
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.products a:hover {
+    background: pink;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
